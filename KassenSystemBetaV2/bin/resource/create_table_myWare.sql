@@ -1,0 +1,6 @@
+CREATE TABLE myWare (
+	  id INT NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),
+	  name VARCHAR(45),
+	  menge INT,
+	  price double ,
+	  CONSTRAINT pk_id PRIMARY KEY (id) )
